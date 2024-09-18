@@ -28,7 +28,7 @@ Step 3 : Create a database with name 'petclinic'.
 <br>
 Step 4 : run below command by navigating to 'MySQL_installed_directory\bin' for example 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
 <br>
-Command : mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql
 <br>
 Step 6 : provide the password to import the tables and data into database.
 <br>
