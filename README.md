@@ -22,7 +22,9 @@ spring-petclinic-microservice-local deployment only
 
 Step 1 : Required MySql server running Locally.
 <br>
-Step 2 : Run below command after preapring executable jar from source. 
+Step 2 : Run the Mysql script file available in mysql folder.
+<br>
+Step 3 : Run below command after preapring executable jar from source. 
 <br>
 <ul>
   <li>java -jar spring-petclinic.jar</li>
