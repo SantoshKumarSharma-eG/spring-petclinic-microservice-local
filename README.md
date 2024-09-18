@@ -24,7 +24,15 @@ Step 1 : Required MySql server running Locally.
 <br>
 Step 2 : Run the Mysql script file available in mysql folder named "petclinic_database_sql_data.sql" before starting servers.
 <br>
-Step 3 : Run below command after preapring executable jar from source. 
+Step 3 : create a database with name 'petclinic'. 
+<br>
+Step 4 : run below command from 'MySQL_installed_directory\bin' for example 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
+<br>
+Step 5 : mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql
+<br>
+Step 6 : provide the password to import the tables and data into database.
+<br>
+Step 7 : Run below command after preapring executable jar from source. 
 <br>
 <ul>
   <li>java -jar spring-petclinic.jar</li>
