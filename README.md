@@ -34,7 +34,14 @@ Step 3 : Run below command after preapring executable jar from source.
   <li>java -jar -DDEMO_EXTERNAL_URL=https://www.google.co.in/ -DDEMO_CPU_MILLIS=500 -DDEMO_SLOW_SQL_QUERY=true -DDEMO_SLOW_SQL_QUERY_MILLIS=1300 -DDEMO=true OwnerService.jar</li>
 </ul>
 
-
+<h2>Accessing the spring petclinic microservice</h2>
+<br>
+<ul>
+  <li>Home Page : http://localhost:8080/</li>
+  <li>Error Page : http://localhost:8080/oups</li>
+  <li>Slow SQL : http://localhost:8080/owners?lastName=</li>
+  <li>External HTTP call : http://localhost:8080/owners/find</li>
+</ul>
 
 
 
