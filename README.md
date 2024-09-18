@@ -6,19 +6,14 @@ spring-petclinic-microservice-local deployment only
 <h2>Default port details of each microservice</h2>
 <br>
 <br>
-OwnerService = 4000
+<ul>
+  <li>OwnerService = 4000</li>
+  <li>PetService = 3000</li>
+  <li>Spring-petclinic = 8080</li>
+  <li>VetService = 5000</li>
+  <li>VisitService = 6000</li>
+</ul>
 <br>
-PetService = 3000
-<br>
-Spring-petclinic = 8080
-<br>
-VetService = 5000
-<br>
-VisitService = 6000
-<br>
-
-
-
 <h2>how to start the spring petclinic microservice localy</h2>
 
 <ul>
