@@ -39,7 +39,7 @@ Step 1 : clone the project into local system.
 <br>
 Step 2 : navigate to each module and run below command to create executable jar.
 <br>
-<p style="text-align:center">>mvnw.cmd clean install</p>
+<p style="text-align:center">mvnw.cmd clean install</p>
 
 <h2>How to start the spring petclinic microservice localy</h2>
 <br>
