@@ -32,7 +32,10 @@ Step 5 : mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-
 <br>
 Step 6 : provide the password to import the tables and data into database.
 <br>
-Step 7 : Run below command after preapring executable jar from source. 
+
+<h2>how to start the spring petclinic microservice localy</h2>
+<br>
+Run below command after preapring executable jar from source. 
 <br>
 <ul>
   <li>java -jar spring-petclinic.jar</li>
