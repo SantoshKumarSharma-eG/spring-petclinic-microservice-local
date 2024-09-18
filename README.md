@@ -17,18 +17,18 @@ spring-petclinic-microservice-local deployment only
 <h2>To run this microservice required JRE 1.8 version</h2>
 <br>
 
-<h2>how to start the spring petclinic microservice localy</h2>
+<h2>configuring database for spring petclinic microservice localy</h2>
 <br>
 
 Step 1 : Required MySql server running Locally.
 <br>
 Step 2 : Run the Mysql script file available in mysql folder named "petclinic_database_sql_data.sql" by following below steps.
 <br>
-Step 3 : create a database with name 'petclinic'. 
+Step 3 : Create a database with name 'petclinic'. 
 <br>
-Step 4 : run below command from 'MySQL_installed_directory\bin' for example 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
+Step 4 : run below command by navigating to 'MySQL_installed_directory\bin' for example 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
 <br>
-Step 5 : mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql
+Command : mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql
 <br>
 Step 6 : provide the password to import the tables and data into database.
 <br>
