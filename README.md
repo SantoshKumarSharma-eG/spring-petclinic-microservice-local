@@ -35,9 +35,11 @@ Step 5 : provide the password to import the tables and data into database.
 
 <h2>Building spring petclinic microservice executable jar</h2>
 <br>
-Step 1 : clone the project into local system.
+Step 1 : set JAVA_HOME and PATH to JDK 1.8.x
 <br>
-Step 2 : navigate to each module and run below command to create executable jar.
+Step 2 : clone the project into local system.
+<br>
+Step 3 : navigate to each module and run below command to create executable jar.
 <br>
 <br>
 mvnw.cmd clean install
