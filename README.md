@@ -21,7 +21,7 @@ spring-petclinic-microservice-local deployment only
   <li>java -jar VisitService.jar</li>
   <li>java -jar VetService.jar</li>
   <li>java -jar PetService.jar</li>
-  <li>java -jar OwnerService.jar</li>
+  <li>java -jar -DDEMO_EXTERNAL_URL=https://www.google.co.in/ -DDEMO_CPU_MILLIS=500 -DDEMO_SLOW_SQL_QUERY=true -DDEMO_SLOW_SQL_QUERY_MILLIS=1300 -DDEMO=true OwnerService.jar</li>
 </ul>
 
 
