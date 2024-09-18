@@ -18,7 +18,8 @@ spring-petclinic-microservice-local deployment only
 <br>
 
 <h2>how to start the spring petclinic microservice localy</h2>
-
+<br>
+<h4>Required MySql server running Locally</h4>
 <ul>
   <li>java -jar spring-petclinic.jar</li>
   <li>java -jar VisitService.jar</li>
