@@ -14,6 +14,9 @@ spring-petclinic-microservice-local deployment only
   <li>VisitService = 6000</li>
 </ul>
 <br>
+<h2>To run this microservice required JRE 1.8 version</h2>
+<br>
+
 <h2>how to start the spring petclinic microservice localy</h2>
 
 <ul>
