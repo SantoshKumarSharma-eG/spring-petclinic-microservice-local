@@ -1,4 +1,5 @@
 # spring-petclinic-microservice-local
+<br>
 spring-petclinic-microservice-local deployment only
 <br>
 Default port details of each microservice
@@ -15,10 +16,18 @@ VetService = 5000
 VisitService = 6000
 <br>
 
-how to start the spring petclinic microservice localy
+<h2>how to start the spring petclinic microservice localy</h2>
 
-java -jar spring-petclinic.jar
-java -jar VisitService.jar
-java -jar VetService.jar
-java -jar PetService.jar
-java -jar OwnerService.jar
+
+<ul>
+  <li>java -jar spring-petclinic.jar</li>
+  <li>java -jar VisitService.jar</li>
+  <li>java -jar VetService.jar</li>
+  <li>java -jar PetService.jar</li>
+  <li>java -jar OwnerService.jar</li>
+</ul>
+
+
+
+
+
