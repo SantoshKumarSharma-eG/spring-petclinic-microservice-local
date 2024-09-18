@@ -1,0 +1,15 @@
+Spring Petclinic Port Details : 
+
+OwnerService = 4000
+PetService = 3000
+Spring-petclinic = 8080
+VetService = 5000
+VisitService = 6000
+
+java -jar spring-petclinic.jar
+java -jar VisitService.jar
+java -jar VetService.jar
+java -jar PetService.jar
+java -jar OwnerService.jar
+
+
