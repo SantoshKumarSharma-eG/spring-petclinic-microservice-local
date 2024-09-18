@@ -28,14 +28,18 @@ Step 3 : Create a database with name 'petclinic'.
 <br>
 Step 4 : run below command by navigating to 'MySQL_installed_directory\bin' for example 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
 <br>
-<p style="text-align:center" color: navy> mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql </p>
+<p style="text-align:center"> mysql --host=localhost --user=xxxx --port=3306 -p petclinic < D:\Sprng-petclinic\spring-petclinic-microservices-master\mysql\petclinic_database_sql_data.sql </p>
 <br>
 Step 5 : provide the password to import the tables and data into database.
 <br>
 
 <h2>Building spring petclinic microservice executable jar</h2>
 <br>
-Step 1 : 
+Step 1 : clone the project into local system.
+<br>
+Step 2 : navigate to each module and run below command to create executable jar.
+<br>
+<p style="text-align:center">>mvnw.cmd clean install</p>
 
 <h2>How to start the spring petclinic microservice localy</h2>
 <br>
